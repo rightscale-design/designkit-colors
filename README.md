@@ -8,6 +8,25 @@ Sass module for RightScale colors.
 npm i designkit-colors
 ```
 
+## Markup
+
+```html
+<!-- Brand Colors --/>
+<div class="green">Green Background</div>
+<div class="blue">Blue Background</div>
+<div class="red">Red Background</div>
+<div class="purple">Purple Background</div>
+<div class="orange">Orange Background</div>
+<!-- Graph Colors --/>
+<div class="viking">Green Background</div>
+<div class="royal-purple">Royal-purple Background</div>
+<div class="Buckthorn">Buckthorn Background</div>
+<div class="Celery">Celery Background</div>
+<div class="Indian">Indian Background</div>
+<div class="silver-tree">Silver-tree Background</div>
+<div class="Sean">Sean Background</div>
+```
+
 ## Author
 
 Jason Melgoza

@@ -3,6 +3,7 @@
 @import "bourbon";
 @import "designkit-colors";
 
+// Brand Colors
 .green {
   background-color: $green;
 }
@@ -23,6 +24,7 @@
   background-color: $orange;
 }
 
+// Graph Colors
 .viking {
   background-color: $viking;
 }
@@ -55,6 +57,7 @@
   background-color: $sean;
 }
 
+// Button Colors
 .green-button {
   background-color: $green-button;
 }
@@ -85,4 +88,103 @@
 
 .destructive-button {
   background-color: $destructive-button;
+}
+
+// Text Colors
+.link {
+  color: $link;
+}
+
+.link-hover {
+  color: $link-hover;
+}
+
+.text {
+  color: $text;
+}
+
+.heading {
+  color: $heading;
+}
+
+// Section Colors
+.left-background-dark {
+  background-color: $left-background-dark;
+}
+
+.left-background-light {
+  background-color: $left-background-light;
+}
+
+.body-background {
+  background-color: $body;
+}
+
+// Border Colors
+.grey-border {
+  background-color: $grey-border;
+}
+
+.grey-border-light {
+  background-color: $grey-border-light;
+}
+
+// Icon Colors
+.grey-icon {
+  background-color: $grey-icon;
+}
+
+.grey-icon-highlight {
+  background-color: $grey-icon-highlight;
+}
+
+.blue-icon {
+  background-color: $blue-icon;
+}
+
+.blue-icon-highlight {
+  background-color: $blue-icon-highlight;
+}
+
+.grey-icon {
+  background-color: $grey-icon;
+}
+
+.sith-icon {
+  background-color: $sith-icon;
+}
+
+// Highlight Colors
+.hover-highlight {
+  background-color: $hover-highlight;
+}
+
+.select-highlight {
+  background-color: $select-highlight;
+}
+
+.inline-highlight {
+  background-color: $inline-highlight;
+}
+
+// Messaging Colors
+.messaging-background {
+  background-color: $messaging-background;
+}
+
+.messaging-text {
+  color: $messaging-text;
+}
+
+// Header Colors
+.header-flat {
+  background-color: $header-flat;
+}
+
+.header-gradient-start {
+  background-color: $header-gradient-start;
+}
+
+.header-gradient-end {
+  background-color: $header-gradient-end;
 }
