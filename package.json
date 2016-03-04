@@ -1,6 +1,6 @@
 {
   "name": "designkit-colors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sass module for RightScale colors.",
   "repository": {
     "type": "git",
@@ -17,13 +17,18 @@
   "homepage": "https://github.com/rightscale-design/designkit-colors#readme",
   "devDependencies": {
     "bourbon": "^4.2.6",
+    "color": "^0.11.1",
     "http-server": "^0.8.5",
+    "lodash": "^4.6.1",
     "node-sass": "^3.4.2",
-    "nodemon": "^1.8.1"
+    "nodemon": "^1.8.1",
+    "postcss": "^5.0.19"
   },
   "scripts": {
     "build-css": "./bin/build-css",
+    "build-min": "./bin/build-min",
     "watch-css": "./bin/watch-css",
-    "serve": "./bin/http-server"
+    "serve": "./bin/http-server",
+    "start": "node build"
   }
 }
