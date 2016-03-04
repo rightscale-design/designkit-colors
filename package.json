@@ -1,6 +1,6 @@
 {
   "name": "designkit-colors",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sass module for RightScale colors.",
   "repository": {
     "type": "git",
