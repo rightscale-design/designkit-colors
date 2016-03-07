@@ -1,11 +1,15 @@
 {
   "name": "designkit-colors",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Sass module for RightScale colors.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rightscale-design/designkit-colors.git"
   },
+  "keywords": [
+    "css",
+    "sass"
+  ],
   "author": {
     "name": "Jason Melgoza",
     "email": "jason@rightscale.com"
