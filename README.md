@@ -52,6 +52,18 @@ npm i designkit-colors
 <div class="header-flat">Header Flat Background</div>
 <div class="header-gradient-start">Header Gradient Start Background</div>
 <div class="header-gradient-end">Header Gradient End Background</div>
+
+<!-- Grayscale Colors-->
+<div class="black-10">Black-10</div>
+<div class="black-20">Black-20</div>
+<div class="black-30">Black-30</div>
+<div class="black-40">Black-40</div>
+<div class="black-50">Black-50</div>
+<div class="black-60">Black-60</div>
+<div class="black-70">Black-70</div>
+<div class="black-80">Black-80</div>
+<div class="black-90">Black-90</div>
+
 ```
 
 ## Author

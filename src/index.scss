@@ -3,38 +3,6 @@
 @import "bourbon";
 @import "designkit-colors";
 
-.black-10 {
-  background-color: $black-10;
-}
-
-.black-20 {
-  background-color: $black-20;
-}
-
-.black-30 {
-  background-color: $black-30;
-}
-
-.black-40 {
-  background-color: $black-40;
-}
-
-.black-50 {
-  background-color: $black-50;
-}
-
-.black-60 {
-  background-color: $black-60;
-}
-
-.black-70 {
-  background-color: $black-70;
-}
-
-.black-80 {
-  background-color: $black-80;
-}
-
 // Brand Colors
 .green {
   background-color: $green;
@@ -219,4 +187,42 @@
 
 .header-gradient-end {
   background-color: $header-gradient-end;
+}
+
+// Grayscale Colors
+
+.black-10 {
+  background-color: $black-10;
+}
+
+.black-20 {
+  background-color: $black-20;
+}
+
+.black-30 {
+  background-color: $black-30;
+}
+
+.black-40 {
+  background-color: $black-40;
+}
+
+.black-50 {
+  background-color: $black-50;
+}
+
+.black-60 {
+  background-color: $black-60;
+}
+
+.black-70 {
+  background-color: $black-70;
+}
+
+.black-80 {
+  background-color: $black-80;
+}
+
+.black-90 {
+  background-color: $black-90;
 }
