@@ -8,7 +8,7 @@ Sass module for RightScale colors.
 npm i designkit-colors
 ```
 
-## Style
+## Variables
 
 ```scss
 @charset "UTF-8";
