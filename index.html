@@ -5,38 +5,74 @@
   <meta charset="utf-8">
   <title>Designkit-Colors</title>
   <link rel="stylesheet" href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
   <style>
     *,
     *:before,
     *:after {
       -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
     }
     body {
+      padding-top: 84px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      letter-spacing: 0;
-      font-weight: 400;
+      font-size: 13px;
       font-style: normal;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #111;
+      letter-spacing: 0;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      color: #111;
-      font-size: 13px;
-      line-height: 1.5;
     }
-
     .wrapper {
       width: 928px;
       padding: 0 40px;
       margin: 0 auto;
     }
+    header {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: auto;
+      left: 0;
+      z-index: 2;
+      padding: 20px 0;
+      margin-bottom: 20px;
+      background: #1e2327;
+    }
+    header h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+    }
+    header .version {
+      display: inline-block;
+      padding: 2px 5px;
+      margin-left: .25rem;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1;
+      color: #666;
+      vertical-align: text-bottom;
+      background-color: rgba(238, 238, 238, .9);
+      border-radius: 20px;
+    }
   </style>
 </head>
+<header>
+  <div class="wrapper">
+    <h1><a href="https://github.com/rightscale-design/designkit-colors">DesignKit - Colors</a> <span class="version">v1.0.0</span></h1>
+  </div>
+</header>
 <body class="px3">
-  <header class="py3">
-    <h1>Designkit Colors</h1>
-  </header>
   <ul class="list-reset flex flex-wrap flex-justify mxn2">
     
     <li class="m2">

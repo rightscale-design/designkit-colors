@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
-@import "bourbon";
-@import "designkit-colors";
+/*
+//
+// Designkit-Colors
+// --------------------------------------------------
+*/
+
+@import
+  "bourbon",
+  "designkit-colors"
+;
 
 // Brand Colors
 .green {
