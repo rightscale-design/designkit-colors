@@ -1,7 +1,7 @@
 # designkit-colors
 1.1.0
 
-A Sass module for * used in RightScale apps.
+A Sass module for colors used in RightScale apps.
 
 ## Install
 ```
