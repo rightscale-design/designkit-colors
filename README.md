@@ -1,154 +1,232 @@
-# Designkit Colors
+# designkit-colors
+1.1.0
 
-Sass module for RightScale colors.
+A Sass module for colors used in RightScale apps.
 
 ## Install
-
-```bash
-npm i designkit-colors
+```
+npm i --save designkit-colors
 ```
 
-## Variables
+## CSS
 
-```scss
-@charset "UTF-8";
-
+```css
+/*
 //
-// Designkit
-// COLOR VARIABLES
+// Designkit-Colors
 // --------------------------------------------------
+*/
+.green {
+  background-color: #80C11A;
+}
 
-// Brand Colors
-$green: #80C11A;
-$blue: #0A83F6;
-$red: #C32525;
-$purple: #7355A6;
-$orange: #F7A626;
+.blue {
+  background-color: #0A83F6;
+}
 
-// Graph Colors
-$viking: #4FBBCD;
-$royal-purple: #7355A6;
-$mulberry: #C45887;
-$buckthorn: #F7A626;
-$celery: #B4CB55;
-$indian: #D05A5A;
-$silver-tree: #5DD08B;
-$sean: #3C8CC7;
+.red {
+  background-color: #C32525;
+}
 
-// Button Colors
-$green-button: #5fb000;
-$blue-button: #0871d4;
-$red-button: #C32525;
-$grey-button: #E7E7E7;
-$default-button: $grey-button;
-$primary-button: $green-button;
-$secondary-button: $blue-button;
-$destructive-button: $red-button;
+.purple {
+  background-color: #7355A6;
+}
 
-// Text Colors
-$link: #0A83F6;
-$link-hover: darken(#0A83F6, 10%);
-$text: #76899A;
-$heading: #57626C;
+.orange {
+  background-color: #F7A626;
+}
 
-// Section Colors
-$left-background-dark: #353B41;
-$left-background-light: #DADEE3;
-$body: #F4F5F7;
+.viking {
+  background-color: #4FBBCD;
+}
 
-// Border Colors
-$grey-border: #D1D6DC;
-$grey-border-light: lighten($grey-border,6%);
+.royal-purple {
+  background-color: #7355A6;
+}
 
-// Icon Colors
-$grey-icon: #57626C;
-$grey-icon-highlight: #A2AFBA;
-$blue-icon: #2390F7;
-$blue-icon-highlight: #54A9F9;
-$green-icon: #80C11A;
-$sith-icon: #30373C;
+.mulberry {
+  background-color: #C45887;
+}
 
-// Highlight Colors
-$hover-highlight: #FAFAFA;
-$select-highlight: #FAFAFA;
-$inline-highlight: #E2E5E9;
+.buckthorn {
+  background-color: #F7A626;
+}
 
-// Messaging Colors
-$messaging-background: #FFF7E5;
-$messaging-text: #69685D;
+.celery {
+  background-color: #B4CB55;
+}
 
-// Header Colors
-$header-flat: #0069CC;
-$header-gradient-start: #076CCA;
-$header-gradient-end: #065BAC;
+.indian {
+  background-color: #D05A5A;
+}
 
-// Grayscale Colors
-$black-10: darken(#fff, 10%);
-$black-20: darken(#fff, 20%);
-$black-30: darken(#fff, 30%);
-$black-40: darken(#fff, 40%);
-$black-50: darken(#fff, 50%);
-$black-60: darken(#fff, 60%);
-$black-70: darken(#fff, 70%);
-$black-80: darken(#fff, 80%);
-$black-90: darken(#fff, 90%);
-```
+.silver-tree {
+  background-color: #5DD08B;
+}
 
-## Markup
+.sean {
+  background-color: #3C8CC7;
+}
 
-```html
-<!--Brand Colors-->
-<div class="green">Green Background</div>
-<div class="blue">Blue Background</div>
-<div class="red">Red Background</div>
-<div class="purple">Purple Background</div>
-<div class="orange">Orange Background</div>
+.green-button {
+  background-color: #5fb000;
+}
 
-<!--Graph Colors-->
-<div class="viking">Green Background</div>
-<div class="royal-purple">Royal-purple Background</div>
-<div class="Buckthorn">Buckthorn Background</div>
-<div class="Celery">Celery Background</div>
-<div class="Indian">Indian Background</div>
-<div class="silver-tree">Silver-tree Background</div>
-<div class="Sean">Sean Background</div>
+.blue-button {
+  background-color: #0871d4;
+}
 
-<!--Button Colors-->
-<div class="green-button">Green Button Background</div>
-<div class="blue-button">Blue Button Background</div>
-<div class="red-button">Red Button Background</div>
-<div class="grey-button">Green Button Background</div>
-<div class="default-button">Default Button Background</div>
-<div class="primary-button">Primary Button Background</div>
-<div class="secondary-button">Secondary Background</div>
-<div class="destructive-button">Sean Button Background</div>
+.red-button {
+  background-color: #C32525;
+}
 
-<!--Text Colors-->
-<div class="link">Link Color</div>
-<div class="link-hover">Link Hover Color</div>
-<div class="text">Text Color</div>
-<div class="heading">Heading Color</div>
+.grey-button {
+  background-color: #E7E7E7;
+}
 
-<!--Section Colors-->
-<div class="left-background-dark">Left Background Dark</div>
-<div class="left-background-light">Left Background Light</div>
-<div class="body">Body Background</div>
+.default-button {
+  background-color: #E7E7E7;
+}
 
-<!--Header Colors-->
-<div class="header-flat">Header Flat Background</div>
-<div class="header-gradient-start">Header Gradient Start Background</div>
-<div class="header-gradient-end">Header Gradient End Background</div>
+.primary-button {
+  background-color: #5fb000;
+}
 
-<!-- Grayscale Colors-->
-<div class="black-10">Black-10</div>
-<div class="black-20">Black-20</div>
-<div class="black-30">Black-30</div>
-<div class="black-40">Black-40</div>
-<div class="black-50">Black-50</div>
-<div class="black-60">Black-60</div>
-<div class="black-70">Black-70</div>
-<div class="black-80">Black-80</div>
-<div class="black-90">Black-90</div>
+.secondary-button {
+  background-color: #0871d4;
+}
+
+.destructive-button {
+  background-color: #C32525;
+}
+
+.link {
+  color: #0A83F6;
+}
+
+.link-hover {
+  color: #0769c6;
+}
+
+.text {
+  color: #76899A;
+}
+
+.heading {
+  color: #57626C;
+}
+
+.left-background-dark {
+  background-color: #353B41;
+}
+
+.left-background-light {
+  background-color: #DADEE3;
+}
+
+.body-background {
+  background-color: #F4F5F7;
+}
+
+.grey-border {
+  background-color: #D1D6DC;
+}
+
+.grey-border-light {
+  background-color: #e2e5e9;
+}
+
+.grey-icon {
+  background-color: #57626C;
+}
+
+.grey-icon-highlight {
+  background-color: #A2AFBA;
+}
+
+.blue-icon {
+  background-color: #2390F7;
+}
+
+.blue-icon-highlight {
+  background-color: #54A9F9;
+}
+
+.grey-icon {
+  background-color: #57626C;
+}
+
+.sith-icon {
+  background-color: #30373C;
+}
+
+.hover-highlight {
+  background-color: #FAFAFA;
+}
+
+.select-highlight {
+  background-color: #FAFAFA;
+}
+
+.inline-highlight {
+  background-color: #E2E5E9;
+}
+
+.messaging-background {
+  background-color: #FFF7E5;
+}
+
+.messaging-text {
+  color: #69685D;
+}
+
+.header-flat {
+  background-color: #0069CC;
+}
+
+.header-gradient-start {
+  background-color: #076CCA;
+}
+
+.header-gradient-end {
+  background-color: #065BAC;
+}
+
+.black-10 {
+  background-color: #e6e6e6;
+}
+
+.black-20 {
+  background-color: #cccccc;
+}
+
+.black-30 {
+  background-color: #b3b3b3;
+}
+
+.black-40 {
+  background-color: #999999;
+}
+
+.black-50 {
+  background-color: gray;
+}
+
+.black-60 {
+  background-color: #666666;
+}
+
+.black-70 {
+  background-color: #4d4d4d;
+}
+
+.black-80 {
+  background-color: #333333;
+}
+
+.black-90 {
+  background-color: #1a1a1a;
+}
 
 ```
 
@@ -158,10 +236,4 @@ Jason Melgoza
 
 ## License
 
-The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+MIT
